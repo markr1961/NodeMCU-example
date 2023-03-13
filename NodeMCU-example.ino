@@ -1,5 +1,8 @@
 // copied pretty much verbatim from https://www.instructables.com/Pull-and-Ambiently-Display-Data-From-Any-Website-O/
 //
+// yeah, thingspeak.com is now a MathLab only tool and requires a university log-in.
+// meaning the core http capability is gone. Time to start fresh ...
+//
 // The http libraries have changed ... _a_lot _ so as written the example didn't work.
 //
 // fixed the basic library issues, but it still fundamentally doesn't work,
@@ -20,7 +23,7 @@
 
 #include "WiFiClient.h"
 
-#include "C:\Users\221027001\Arduino\my_pw.h"
+#include "C:\git-projects\my_pw.h"
 // char ssid[]="SARAVANA-ACT";  // replace with your ssid & pass
 // char pass[]="str5412stk4141";
 
